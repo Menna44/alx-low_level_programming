@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * description : main : Prints if num is +,-,0
+ * main : Prints if num is +,-,0
  * Return: 0
  */
 int main(void)
