@@ -5,13 +5,11 @@
  * print_array - Print n elements of an array of integers
  * @a: input array
  * @n: lenght of the array
- *
  */
-
 void print_array(int *a, int n)
 {
 	int index;
-	
+
 	for (index = 0; index < n; index++)
 	{
 		printf("%d", a[index]);
