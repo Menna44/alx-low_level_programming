@@ -1,10 +1,12 @@
 #include "main.h"
 /**
- * _strstr - function
+ * _strstr - Concatenates the string
  * @haystack: input haystack
  * @needle: input needle
+ *
  * Return: Always true
- */
+ */
+
 char *_strstr(char *haystack, char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
