@@ -1,10 +1,10 @@
-#include “main.h"
+#include "main.h"
 #include <stdlib.h>
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * _realloc -  reallocates a memory using malloc and free
-@ptr: pointer to the prev memory address
+ * @ptr: pointer to the prev memory address
  * @old_size: prev size allocated
  * @new_size: new size to reallocate
  * Return: pointer to the new reallocated memory
