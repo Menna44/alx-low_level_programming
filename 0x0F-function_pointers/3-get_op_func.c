@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * get_op_func - list of operations
- * @s: string
+ * get_op_func - operations functions
+ * @s: string parameter
  *
- * Return: pointer 
-*/
+ * Return: pointer to operation
+ */
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
